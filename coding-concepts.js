@@ -8,7 +8,7 @@
 // --------------------1) What will this log?
 
 var cohort = "Delta 2021"
-// console.log(cohort.length)
+//console.log(cohort.length)
 
 // a) Your answer: 10
 // b) Verify and explain: Answer correct because the length property counts in numerical order starting at 1 and counts a space as a character.

@@ -9,22 +9,20 @@
 //This appears to be an evaluation. I would assign a number value to a variable then make a series of conditional statements using the if/elseif/else functions. These statements would compare the variable against the number 212 and log a sentence using string interpolation that includes that value and a result of whether it is below, above, or at boiling point.
 
 // Create the code and test each of the variables provided. Expected output: "35 is below boiling point", "350 is above boiling point", "212 is at boiling point"
-/*
-var temp = 35;
-if (temp === 212) {
-  console.log(temp + " is at boiling point")
-} else if(temp < 212) {
-  console.log(temp + " is below boiling point")
-} else if(temp ==== "string") {
-console.log("Please type a number.")
-} else {
-  console.log(temp + " is above boiling point")
-};
-*/
 
 var temp = 35
-// var temp = 350
-// var temp = 212
+//var temp = 350
+//var temp = 212
+
+// if (temp === 212) {
+//     console.log(temp + " is at boiling point")
+//   } else if(temp < 212) {
+//     console.log(temp + " is below boiling point")
+//   } else if(typeof temp === "string") {
+//   console.log("Please type a number.")
+//   } else {
+//     console.log(temp + " is above boiling point")
+//  };
 
 
 // --------------------2) Create the code that will combine two arrays and return the length using the variables provided below. Expected output: 10
@@ -32,10 +30,10 @@ var temp = 35
 var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [8, -7, 22, 9, 13]
 
-/*
-var comboNumbers = myNumbers1.concat(myNumbers2)
-console.log(comboNumbers.length)
-*/
+
+// var comboNumbers = myNumbers1.concat(myNumbers2)
+// console.log(comboNumbers.length)
+
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variables provided below. Expected output: "eilrahc", "atled"
 //Turning strings into arrays then back to a string. In order to use the reverse function, I will use the split function to turn the string into an array. For the list to populate as separate words, I will use a quotation marks and a space when assigning the split property. Then join property with a space and comma to produce an output with the string separated by a comma.
@@ -64,14 +62,15 @@ var myString2 = "delta"
 // console.log(myString1.split(" ").reverse( ).concat(myString2.split(" ").reverse( )).join(", "))
 // output as a string without quotations and not in reverse--- charlie, delta
 
-// console.log(myString1.split("").reverse().join("")); console.log(myString2.split("").reverse().join(""))
-// output on separate lines--- eilrahc
-//  atled
-
 // This was a desperate move.
 // var myString3 = " ,"
 // console.log(myString1.split("").reverse().join("") + myString3.split("").reverse().join("") + myString2.split("").reverse().join(""))
 //output without quotations --- eilrahc, atled
+
+// I realize I should have asked for clarity on it the output should be on separate lines, or a string, or an array.
+// console.log(myString1.split("").reverse().join("")); console.log(myString2.split("").reverse().join(""))
+// output on separate lines--- eilrahc
+//  atled
 
 // Of course, I had to keep trying. It's not 8:59am on Monday yet.
 // var myString1 = "charlie"
@@ -79,7 +78,7 @@ var myString2 = "delta"
 // console.log(myString1.split("").reverse().join("").concat(", ", myString2.split("").reverse().join("")))
 // output as a string without quotations     eilrahc, atled
 
-// The only way I could get quotation is in an array...wait a minute, did you want quotations...well here is the code anyway.
+// The only way I could get quotation is in an array...wait a minute, did you want quotations? Did you want them on the same line? ...well here is the code anyway.
 // var myString1 = "charlie"
 // var myString2 = "delta"
 // console.log(myString1.split("").reverse().join("").concat(" ", myString2.split("").reverse().join("")).split(" "))
