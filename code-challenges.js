@@ -14,15 +14,15 @@ var temp = 35
 //var temp = 350
 //var temp = 212
 
-// if (temp === 212) {
-//     console.log(temp + " is at boiling point")
-//   } else if(temp < 212) {
-//     console.log(temp + " is below boiling point")
-//   } else if(typeof temp === "string") {
-//   console.log("Please type a number.")
-//   } else {
-//     console.log(temp + " is above boiling point")
-//  };
+if (temp === 212) {
+    console.log(temp + " is at boiling point")
+  } else if(temp < 212) {
+    console.log(temp + " is below boiling point")
+  } else if(typeof temp === "string") {
+  console.log("Please type a number.")
+  } else {
+    console.log(temp + " is above boiling point")
+ };
 
 
 // --------------------2) Create the code that will combine two arrays and return the length using the variables provided below. Expected output: 10
@@ -31,8 +31,8 @@ var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [8, -7, 22, 9, 13]
 
 
-// var comboNumbers = myNumbers1.concat(myNumbers2)
-// console.log(comboNumbers.length)
+var comboNumbers = myNumbers1.concat(myNumbers2)
+console.log(comboNumbers.length)
 
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variables provided below. Expected output: "eilrahc", "atled"
@@ -68,9 +68,9 @@ var myString2 = "delta"
 //output without quotations --- eilrahc, atled
 
 // I realize I should have asked for clarity on it the output should be on separate lines, or a string, or an array.
-// console.log(myString1.split("").reverse().join("")); console.log(myString2.split("").reverse().join(""))
-// output on separate lines--- eilrahc
-//  atled
+console.log(myString1.split("").reverse().join("")); console.log(myString2.split("").reverse().join(""))
+output on separate lines--- eilrahc
+ atled
 
 // Of course, I had to keep trying. It's not 8:59am on Monday yet.
 // var myString1 = "charlie"
@@ -93,13 +93,13 @@ var number2 = 27
 // var number1 = 7
 // var number2 = 19
 
-// if (number1 === number2) {
-//   console.log("Please enter two different numbers.")
-// } else if(number1 > number2) {
-//   console.log(number1 - number2)
-// } else{
-//   console.log(number2 - number1)
-// };
+if (number1 === number2) {
+  console.log("Please enter two different numbers.")
+} else if(number1 > number2) {
+  console.log(number1 - number2)
+} else{
+  console.log(number2 - number1)
+};
 
 
 // --------------------5) Copy/paste your code from #4. Refactor your code to also accept non-number edge cases. Inform your user if the variable is not a number using the two sets of test variables provided below. Expected output: "Your input is not a number", 3
@@ -107,16 +107,16 @@ var number2 = 27
 var numberRefactor1 = 42
 var numberRefactor2 = "hello"
 
-// var numberRefactor1 = 27
-// var numberRefactor2 = 24
-// if (typeof numberRefactor1 === "string") {
-//   console.log("Your input is not a number")
-// } else if(typeof numberRefactor2 === "string") {
-//     console.log("Your input is not a number")
-//   } else if(numberRefactor1 === numberRefactor2) {
-//   console.log("Please enter two different numbers.")
-// } else if(numberRefactor1 > numberRefactor2) {
-//   console.log(numberRefactor1 - numberRefactor2)
-// } else{
-//   console.log(numberRefactor2 - numberRefactor1)
-// };
+var numberRefactor1 = 27
+var numberRefactor2 = 24
+if (typeof numberRefactor1 === "string") {
+  console.log("Your input is not a number")
+} else if(typeof numberRefactor2 === "string") {
+    console.log("Your input is not a number")
+  } else if(numberRefactor1 === numberRefactor2) {
+  console.log("Please enter two different numbers.")
+} else if(numberRefactor1 > numberRefactor2) {
+  console.log(numberRefactor1 - numberRefactor2)
+} else{
+  console.log(numberRefactor2 - numberRefactor1)
+};
