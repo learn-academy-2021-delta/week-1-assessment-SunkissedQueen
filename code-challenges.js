@@ -69,8 +69,8 @@ var myString2 = "delta"
 
 // I realize I should have asked for clarity on it the output should be on separate lines, or a string, or an array.
 console.log(myString1.split("").reverse().join("")); console.log(myString2.split("").reverse().join(""))
-output on separate lines--- eilrahc
- atled
+// output on separate lines--- eilrahc
+//  atled
 
 // Of course, I had to keep trying. It's not 8:59am on Monday yet.
 // var myString1 = "charlie"
@@ -107,8 +107,8 @@ if (number1 === number2) {
 var numberRefactor1 = 42
 var numberRefactor2 = "hello"
 
-var numberRefactor1 = 27
-var numberRefactor2 = 24
+// var numberRefactor1 = 27
+// var numberRefactor2 = 24
 if (typeof numberRefactor1 === "string") {
   console.log("Your input is not a number")
 } else if(typeof numberRefactor2 === "string") {
